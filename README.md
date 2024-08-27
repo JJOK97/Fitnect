@@ -1,3 +1,9 @@
+Samsung Software Academy For Youth 11th - 관통 프로젝트
+
+> 2024.05.16 ~ 2024.05.23
+
+<br>
+
 ## 📺 Preview
 
 [![Preview](https://github.com/JJOK97/Fitnect/assets/133585698/80fbe409-b7b1-4d0b-bf4f-c56f8c9c0191)](https://github.com/JJOK97/Fitnect/assets/133585698/80fbe409-b7b1-4d0b-bf4f-c56f8c9c0191)
@@ -6,102 +12,98 @@
 
 ## 목차
 
-##### 1. [개발 목적](#-개발-목적)
-##### 2. [Fitnect 주요 기능](#-fitnect-주요-기능)
-##### 3. [주요 기술 스택](#-주요-기술-스택)
-##### 4. [주요 작업](#-주요-작업)
-##### 5. [추가 리팩토링](#-추가-리팩토링)
-##### 6. [기타 사항](#-기타-사항)
+##### 1. [**서비스 소개**](#-서비스-소개)
+##### 2. [**기술 스택**](#-기술-스택)
+##### 3. [**주요 기능**](#-주요-기능)
+##### 4. [**시스템 아키텍쳐**](#-시스템-아키텍쳐)
+##### 5. [**개발 팀 소개**](#-개발-팀-소개)
 
 <br>
 
-## 📖 개발 목적
+## ✨ 서비스 소개
 
-Fitnect 프로젝트는 피트니스와 커넥트의 합성어로, 위치 기반 운동 시설 종합 정보 및 예약/결제 서비스를 제공하는 것을 목표로 합니다. 
+### 📖 개발 목적
+**Fitnect 프로젝트**는 '피트니스'와 '커넥트'의 합성어로, 
 
-사용자가 원하는 운동 시설을 쉽게 찾고 예약할 수 있도록 하며, 위치 기반으로 가장 가까운 시설을 찾아주는 기능을 구현합니다.
+사용자들이 위치 기반으로 주변의 운동 시설을 쉽게 찾고, 간편하게 예약 및 결제할 수 있는 플랫폼을 제공하는 것을 목표로 합니다.
 
-<br>
+### 🌟 Fitnect 프로젝트만의 특별함
+    ⩥ 위치 기반 시설 검색 : 사용자의 현재 위치를 기반으로 거리와 접근성을 고려하여 최적의 운동 시설을 찾아줍니다.
+    ⩥ 간편한 예약 및 결제 : 번거로운 절차 없이 운동 시설의 예약과 결제를 한 번에 처리할 수 있는 직관적인 인터페이스를 제공합니다.
+    ⩥ 종합 정보 제공 : 각 운동 시설의 리뷰, 가격, 제공 서비스 등을 통해 신뢰할 수 있는 통합 정보를 제공합니다.
+    
+### 💡 이런 분들에게 완벽해요
+    ⩥ 효율적인 운동 시설 탐색을 원하는 사용자 : 복잡한 검색 없이, 위치 기반으로 가까운 운동 시설을 손쉽게 찾고자 하는 분들.
+    ⩥ 예약과 결제를 간편하게 처리하고 싶은 사용자 : 여러 단계 없이 빠르고 간편하게 운동 시설을 예약하고 싶은 분들.
+    ⩥ 신뢰할 수 있는 정보를 바탕으로 선택하고 싶은 사용자 : 운동 시설에 대한 종합적인 정보를 바탕으로 최적의 결정을 내리고 싶은 분들.
 
-## 🚀 Fitnect 주요 기능
+**Fitnect 프로젝트**와 함께라면, 더 이상 운동 시설을 찾는 데 시간을 낭비하지 않아도 됩니다. 
 
-### 주요 기능
-
-- **시설 검색 및 예약**: 사용자가 원하는 시설을 검색하고 예약할 수 있는 기능
-- **위치 기반 검색**: 사용자의 현재 위치를 기반으로 가까운 운동 시설을 추천
-- **거리 계산 및 길찾기**: 사용자와 주요 시설 간의 거리 계산 및 길찾기 기능
-- **리뷰 및 평점**: 시설에 대한 리뷰 및 평점을 남길 수 있는 기능
-- **결제 시스템**: 안전하고 간편한 결제 시스템 제공
-
-<br>
-
-### 주요 비즈니스 로직
-
-- 사용자와 시설 간의 거리 계산 및 길찾기
-- 사용자의 선호도와 위치를 기반으로 한 맞춤형 시설 추천
+지금 바로 주변의 최고의 운동 시설을 발견하고, 편리하게 예약해보세요!
 
 <br>
 
-## 📚 주요 기술 스택
-
-- **설계 패턴**: <img src="https://img.shields.io/badge/RESTful%20API-6DB33F?style=for-the-badge&logo=api&logoColor=white" style="height: 25px; margin: 2px">
-- **프로그래밍 언어**: <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
-- **프레임워크**: <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white " style="height: 25px; margin: 2px"> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" style="height: 25px; margin: 2px">
-- **데이터베이스**: <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white" style="height: 25px; margin: 2px">
-- **지도 API**: <img src="https://img.shields.io/badge/tmap-FF0000?style=for-the-badge&logo=tmap&logoColor=white" style="height: 25px; margin: 2px"> <img src="https://img.shields.io/badge/kakaomap-FFCD00?style=for-the-badge&logo=kakaomap&logoColor=white" style="height: 25px; margin: 2px">
-
-<br>
-
-## 🔧 주요 작업
-
-### 프론트엔드
-
-#### 1. 사용자 인터페이스 설계
-
-> Vue.js와 HTML, CSS를 활용하여 직관적이고 사용자 친화적인 UX/UI를 갖춘 웹 인터페이스로 개발
-
-1. **직관적인 디자인**: 사용자 경험을 극대화하기 위해 간결하고 직관적인 디자인 원칙을 적용
-
-    - **개발 방법**: Vue.js의 컴포넌트 기반 아키텍처를 활용하여 재사용 가능한 UI 컴포넌트를 개발하고, CSS Flexbox를 이용하여 반응형 디자인을 구현
-
-**구체적인 성과**
-
-- **CSS Flexbox를 활용하여 반응형 디자인을 구현하면서 다양한 화면 크기와 해상도에서 일관된 UI를 제공하는 방법을 배울 수 있었음**
-
-<br>
-
-#### 2. 반응형 디자인 구현
-
-> 화면 크기 변화에 따른 반응형 레이아웃 제공
-
-1. **반응형 레이아웃 구현**: 다양한 화면 크기에서 일관된 UX를 제공하기 위해 반응형 레이아웃을 구현
-
-    - **개발 방법**: CSS Media Queries를 사용하여 다양한 화면 크기에서 레이아웃이 적절하게 조정되도록 구현
-
-**구체적인 성과**
-
-- **CSS Media Queries를 사용하여 다양한 화면 크기에서 일관된 UX를 제공하는 방법을 익힘**
+## 📚 기술 스택
+<table>
+    <tr>
+        <td><b>Back-end</b></td>
+        <td><img src="https://img.shields.io/badge/Java-17-007396?style=flat&logo=Java&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Spring Boot-3.3.1-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Spring Security-5.7.1-6DB33F?style=flat-square&logo=Spring Security&logoColor=white"/>
+            <br>
+            <img src="https://img.shields.io/badge/MySQL-8.0.38-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>
+            <img src="https://img.shields.io/badge/JWT-0.11.5-000000?style=flat-square&logo=JSON Web Tokens&logoColor=white"/>
+        </td>
+    </tr>
+    <tr>
+        <td><b>Front-end</b></td>
+        <td> 
+            <img src="https://img.shields.io/badge/Vue.js-3.4.29-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Node-14.21.3-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Node.js-14.21.3-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+            <br>
+            <img src="https://img.shields.io/badge/Pinia-2.1.7-FFA500?style=flat-square&logo=Pinia&logoColor=white"/>
+            <img src="https://img.shields.io/badge/npm-6.14.18-CB3837?style=flat-square&logo=npm&logoColor=white"/>
+            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black"/>
+            <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>
+            <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
+            <br>
+            <img src="https://img.shields.io/badge/Kakao API-1.39.29-FFCD00?style=flat-square&logo=Kakao&logoColor=white"/>
+            <img src="https://img.shields.io/badge/Tmap API-1.0.18-01A2ED?style=flat-square&logo=SKTelecom&logoColor=white"/>
+        </td>
+    </tr>
+        <td><b>Tools</b></td>
+        <td>
+            <img src="https://img.shields.io/badge/Notion-333333?style=flat-square&logo=Notion&logoColor=white"/>
+            <img src="https://img.shields.io/badge/GitHub-FCA121?style=flat-square&logo=GitHub&logoColor=white"/>
+        </td>
+    </tr>
+</table>
 
 <br>
 
-## 🔄 추가 리팩토링
+## 🚀 주요 기능
+|          기능          | 내용                                                                                                                      |
+| :--------------------: | :------------------------------------------------------------------------------------------------------------------------ |
+| **시설 검색 및 예약**  | 사용자가 원하는 운동 시설을 검색하고 예약할 수 있는 기능을 제공합니다. 다양한 필터를 통해 사용자에게 최적의 선택지를 제공합니다.  |
+| **위치 기반 검색**     | 사용자의 현재 위치를 기반으로 가까운 운동 시설을 추천합니다. 거리와 접근성을 고려하여 사용자가 가장 편리하게 이용할 수 있는 시설을 제안합니다. |
+| **거리 계산 및 길찾기** | 사용자와 선택한 시설 간의 거리 계산 및 길찾기 기능을 제공합니다. 정확한 경로 안내를 통해 사용자가 쉽게 시설에 도착할 수 있도록 돕습니다. |
+| **리뷰 및 평점**       | 사용자들이 이용한 시설에 대한 리뷰와 평점을 남길 수 있는 기능을 제공합니다. 이를 통해 다른 사용자들이 더 나은 선택을 할 수 있도록 지원합니다.  |
+| **결제 시스템**        | 안전하고 간편한 결제 시스템을 통해, 사용자가 시설 예약과 관련된 결제를 신속하고 안전하게 처리할 수 있도록 지원합니다.                         |
+
+<br>
+
+## 📊 시스템 아키텍쳐
+![image](https://github.com/user-attachments/assets/b87aa5b0-265f-411f-8b61-98b410f1f1c2)
 
 
 <br>
 
-## 👥 기타 사항
+## 👨🏻‍💻 개발 팀 소개
 
-### 소규모 XP 개발 경험
+| <img src="https://avatars.githubusercontent.com/u/133585698?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/79296295?v=4" width="150" height="150"/> |
+| :----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | 
+|          [옥진석<br>@JJOK97](https://github.com/JJOK97)<br/>`READER`<br>`FRONTEND`          |           [장웅기<br>@kocoveen](https://github.com/kocoveen)<br/>`BACKEND` <br>         |
 
-- **개발 팀 구성**: 2명
-- **개발 기간**: 24.05.16 ~ 24.5.23 ( 6일 )
-- **개발 방법론**: XP 활용
-
-짧은 기간 동안 효율적으로 프로젝트를 진행하기 위해 Extreme Programming 방식을 도입하여 빠르게 성공적으로 프로젝트를 완료했습니다. 
-
-매일매일 스프린트와 데일리 스크럼 미팅을 통해 빠른 피드백과 지속적인 개선을 이루었고, 변화하는 요구사항에 유연하게 대응했습니다.
-
-- **구체적인 성과**
-    - **효율적인 팀워크**: XP의 페어 프로그래밍과 지속적인 소통을 통해 팀원 간의 협업을 극대화하여 프로젝트 진행 상황을 신속하게 조정할 수 있었습니다.
-    - **문제 해결 능력 향상**: 짧은 시간 내에 다양한 문제를 해결하며 문제 해결 능력을 크게 향상시킬 수 있었고, 빠르게 의사결정을 내리는 경험을 쌓았습니다.
-    - **지속적인 리팩토링**: 지속적인 리팩토링을 통해 코드의 가독성과 효율성을 높였고, 이는 서로의 코드를 이해하는데 있어 큰 역할을 하였고 프로젝트 성공에 중요한 역할을 했습니다.
+<br />
+<div id="8"></div>
