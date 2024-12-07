@@ -103,7 +103,7 @@ Samsung Software Academy For Youth 11th - 관통 프로젝트
 
 | <img src="https://avatars.githubusercontent.com/u/133585698?v=4" width="150" height="150"/> | <img src="https://avatars.githubusercontent.com/u/79296295?v=4" width="150" height="150"/> |
 | :----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: | 
-|          [옥진석<br>@JJOK97](https://github.com/JJOK97)<br/>`READER`<br>`FRONTEND`          |           [장웅기<br>@kocoveen](https://github.com/kocoveen)<br/>`BACKEND` <br>         |
+|          [옥진석<br>@JJOK97](https://github.com/JJOK97)<br/>`LEADER`<br>`FRONTEND`          |           [장웅기<br>@kocoveen](https://github.com/kocoveen)<br/>`BACKEND` <br>         |
 
 <br />
 <div id="8"></div>
